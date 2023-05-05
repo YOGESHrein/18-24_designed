@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply inline-block mt-5 bg-primary py-2 px-3 text-sm md:text-lg rounded-lg hover:bg-orange-500 text-gray-800;
+  }
+  .btn-second {
+    @apply inline-block border border-primary bg-transparent py-1 px-4 text-sm font-medium rounded-md hover:bg-orange-500;
+  }
+}
